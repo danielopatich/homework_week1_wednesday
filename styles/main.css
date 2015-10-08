@@ -9,6 +9,56 @@ body {
 main {
 }
 
+.masthead header {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.masthead {
+  background: #118BC0;
+  height: 55px;
+  padding: 45px 20px 0 0;
+  margin: 0;
+}
+
+header.masthead h1  {
+  width: 22px;
+  height: 14px;
+  background: #fff;
+  margin: -37px 10px 14px 10px;
+  padding: 15px 15px 9px 6px;
+  box-sizing: content-box;
+}
+
+header.masthead h2  {
+  width: 120px;
+  height: 14px;
+  background: #fff;
+  margin: -52px 10px 14px 70px;
+  padding: 15px 15px 9px 6px;
+  box-sizing: content-box;
+}
+
+header.masthead h3  {
+  width: 77px;
+  height: 42px;
+  background: #0070A4;
+  margin: -71px -18px 0px 70px;
+  padding: 15px 15px 9px 6px;
+  box-sizing: content-box;
+  float: right;
+}
+/*.arrow-box {
+  display: block;
+  margin: 212px auto 100px auto;
+  width: 50px;
+  height: 20px;
+  border: none;
+  background: #fff;
+}*/
+
 .main-text,
 .sub-text {
   text-align: center;
@@ -31,20 +81,6 @@ main {
   margin: 0 auto 30px;
 }
 
-
-.masthead header {
-  text-decoration: none;
-  color: #fff;
-  margin: 0 5px;
-  padding: 0;
-}
-
-.masthead {
-  background: #118BC0;
-  height: 55px;
-  padding: 45px 20px 0 0;
-  margin: 0;
-}
 
 #scroll-box1 {
   background: #344051;
@@ -74,12 +110,32 @@ main {
   background: #fff;
 }
 
-.menu-box {
+.feature {
   height: 70px;
   margin: 40px 30px;
   background: white;
   padding: 10px 10px 0 10px;
   display: block;
+}
+
+div.feature h1 {
+  width: 33px;
+  height: 33px;
+  background: #616E7F;
+  margin: 3px -18px -3px -10px;
+  padding: 15px 15px 9px 6px;
+  box-sizing: content-box;
+  float: left;
+}
+
+div.feature h2 {
+  width: 100px;
+  height: 33px;
+  background: #616E7F;
+  margin: -10px -8px 0 -10px;
+  padding: 15px 75px 9px 6px;
+  box-sizing: content-box;
+  float: right;
 }
 
 .menu-box:last-child {
@@ -110,6 +166,36 @@ main {
 .mid-box:last-child {
   margin: 0 10px;
   padding: 0 10px 0 10px;
+}
+
+div.mid-box h1 {
+  width: 40px;
+  height: 40px;
+  background: #C7D2D8;
+  margin: 10px auto 30px;
+  padding: 8px 15px 20px 6px;
+  box-sizing: content-box;
+  float: center;
+}
+
+div.mid-box h2 {
+  width: 475px;
+  height: 25px;
+  background: #C7D2D8;
+  margin: -10px auto 10px;
+  padding: -5px 15px 9px 6px;
+  box-sizing: content-box;
+  float: center;
+}
+
+div.mid-box h3 {
+  width: 475px;
+  height: 50px;
+  background: #C7D2D8;
+  margin: 0 auto 10px;
+  padding: 15px 15px 9px 6px;
+  box-sizing: border-box;
+  float: center;
 }
 
 #break-box2 {
@@ -148,7 +234,7 @@ nav.extras2 a {
   padding: 9px;
 }
 
-footer.link-box h3  {
+footer.link-box h6  {
   width: 132px;
   height: 25px;
   background: #fff;
