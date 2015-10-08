@@ -35,10 +35,18 @@ header.masthead h1  {
 header.masthead h2  {
   width: 120px;
   height: 14px;
-  background: #fff;
+  background: #118BC0;
   margin: -52px 10px 14px 70px;
   padding: 15px 15px 9px 6px;
   box-sizing: content-box;
+  text-align: center;
+}
+
+header.masthead a {
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  color: #fff;
 }
 
 header.masthead h3  {
@@ -49,6 +57,7 @@ header.masthead h3  {
   padding: 15px 15px 9px 6px;
   box-sizing: content-box;
   float: right;
+  text-align: center;
 }
 /*.arrow-box {
   display: block;
@@ -99,7 +108,17 @@ header.masthead h3  {
   display: block;
   box-sizing: content-box;
   border: 10px solid #212934;
+  text-align: center;
 }
+
+.button-box a {
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+}
+
 
 .arrow-box {
   display: block;
@@ -111,14 +130,16 @@ header.masthead h3  {
 }
 
 .feature {
-  height: 70px;
+  height: 43px;
+  width: 37px;
   margin: 40px 30px;
   background: white;
   padding: 10px 10px 0 10px;
   display: block;
 }
 
-div.feature h1 {
+
+/*div.feature h1 {
   width: 33px;
   height: 33px;
   background: #616E7F;
@@ -136,7 +157,7 @@ div.feature h2 {
   padding: 15px 75px 9px 6px;
   box-sizing: content-box;
   float: right;
-}
+}*/
 
 .menu-box:last-child {
   margin: 0px 30px 0 30px;
@@ -214,6 +235,14 @@ div.mid-box h3 {
   padding: 10px 10px 0 0;
   display: block;
   box-sizing: content-box;
+}
+
+.button-box2 a {
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
 }
 
 footer {
