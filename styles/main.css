@@ -129,10 +129,10 @@ div.feature h1 {
 }
 
 div.feature h2 {
-  width: 100px;
+  width: 50px;
   height: 33px;
   background: #616E7F;
-  margin: -10px -8px 0 -10px;
+  margin: -10px -10px 0 -10px;
   padding: 15px 75px 9px 6px;
   box-sizing: content-box;
   float: right;
@@ -164,8 +164,8 @@ div.feature h2 {
 }
 
 .mid-box:last-child {
-  margin: 0 10px;
-  padding: 0 10px 0 10px;
+  margin: -10px 10px;
+  padding: 10px 10px 0 10px;
 }
 
 div.mid-box h1 {
@@ -179,7 +179,7 @@ div.mid-box h1 {
 }
 
 div.mid-box h2 {
-  width: 475px;
+  width: 333px;
   height: 25px;
   background: #C7D2D8;
   margin: -10px auto 10px;
@@ -189,8 +189,8 @@ div.mid-box h2 {
 }
 
 div.mid-box h3 {
-  width: 475px;
-  height: 50px;
+  width: 333px;
+  height: 25px;
   background: #C7D2D8;
   margin: 0 auto 10px;
   padding: 15px 15px 9px 6px;
