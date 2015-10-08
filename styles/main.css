@@ -145,5 +145,13 @@ nav.extras1 a,
 nav.extras2 a {
   text-decoration: none;
   color: white;
-  padding: 10px;
+  padding: 9px;
+}
+
+footer.link-box h3  {
+  width: 132px;
+  height: 25px;
+  background: #fff;
+  margin: 0 auto;
+  text-indent: -30899px;
 }
